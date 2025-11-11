@@ -40,4 +40,21 @@ function addFunction(x=1, y=3, z=6){
 console.log(addFunction(6))
 console.log(addFunction())
 
+// function sum (a=6,b=10){
+//  let result= a/b*100;
+//  console.log(result,"%")
+
+// } let value=sum()
+// console.log(value)
+
+//  const display=() => {
+// console.log("areeba")
+// }
+// display(sum())
+
+
+// function 
+//function are reusable block of code to perfom particular task
+//The name you write inside the function definition is called a Parameter.
+// The value you send when you call the function is called an Argument.
 
