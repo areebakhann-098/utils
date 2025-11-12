@@ -29,7 +29,7 @@ function hi(y, z){
 }
    console.log(hi(2,9))
 
-// data type
+data type
 let x="areeba";
 let y= 40;
 let z= 60.98;
@@ -114,6 +114,7 @@ const student={
 }
  student.name= "areeba khalid"
  console.log(student)
+ console.log(typeof student)
 
 //task 9
 const person={name: "ali", age: 24,
@@ -124,10 +125,25 @@ const person={name: "ali", age: 24,
     }
 }
 console.log(person.address.city)
+console.log(typeof person)
 
 
 //task 10
-let x= "5"
+let x= "areeba"
 let y=2
 console.log(x+y)
 console.log(x-y)
+
+
+let userName="usman niaz swati";
+let a=""
+// let convertname= Boolean(userName)
+let converta= Boolean(a)
+
+if(converta===true){
+    console.log("true")
+}else {
+    console.log("false")
+}
+console.log(typeof converta)
+ 

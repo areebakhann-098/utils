@@ -52,7 +52,18 @@ console.log(addFunction())
 // }
 // display(sum())
 
+function nice(name){
+    console.log("hi " + name+ "you are looking nice")
+    console.log("hi "  +  name + "your shirt is good")
+} nice("areeba")
 
+
+const number=(x)=>{
+    console.log("i am the arrow function", x)
+}
+number(7)
+number(8)
+number(89)
 // function 
 //function are reusable block of code to perfom particular task
 //The name you write inside the function definition is called a Parameter.
