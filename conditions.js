@@ -13,7 +13,7 @@ else{
 }  
 
 
-let a=4
+// let a=4
 let b=2
 console.log(a+b)
 console.log(a-b)
@@ -22,26 +22,26 @@ console.log(a**b)
 console.log(a/b)
 console.log(a  % b)
 
-// Task
- let a=20, b=20
- let c="90"
-console.log(a!=b)
-console.log(a===b)
-console.log(a!==c),
-console.log(a==b && b==a)
+// // Task
+ let ab=20, bc=20
+ let ca="90"
+console.log(ab!=bc)
+console.log(ab===bc)
+console.log(ab!==ca),
+console.log(ab==bc && bc==ab)
 
-// Task
-let unit=155
-if(unit<=100){
+// // Task
+let units=155
+if(units<=100){
     let price=40
-    let bill=unit*price
-    console.log("unit price is 40", bill)
+    let bill=units*price
+    console.log("units price is 40", bill)
 }else{
     let price=55
-console.log("units price is 55", unit*price)
+console.log("unitss price is 55", unit*price)
 }
 
-Task
+// // Task
 let userAge = 24
 if(userAge>=18){
     console.log("you are eligible to vote")
@@ -49,24 +49,24 @@ if(userAge>=18){
     console.log("you are not eligiable")
 }
 
-Task
-let a=30
-if(a%2===0){
+// // Task
+let aaa=30
+if(aaa%2===0){
     console.log("a is even number")
 }else{
     console.log("odd number")
 }
 
-Task
-let marks=90
-if(marks>=90 && marks<=100){
+// // Task
+let numbers=90
+if(numbers>=90 && numbers<=100){
     console.log("Grade A")
-}else if(marks>=80 && marks<=89){
+}else if(numbers>=80 && numbers<=89){
     console.log("grade B")
-}else if (marks>=70 && marks<=79){
+}else if (numbers>=70 && numbers<=79){
     console.log("grade c")
 }else if
-    (marks>=60 && marks<=69){
+    (numbers>=60 && numbers<=69){
         console.log("grade D")
     }else
     {
@@ -74,7 +74,7 @@ if(marks>=90 && marks<=100){
     }
 
 
-task Using ternary operator
+// // task Using ternary operator
 let marks = 85;
 let grade =
   marks >= 90 ? "Grade A" :
@@ -84,7 +84,7 @@ let grade =
   "Fail";
 console.log(grade);
 
-using function
+// // using function
 function studentGrade(marks){
     if (marks>=90)return "grade A";
     if (marks>=80)return "grade B";
@@ -97,7 +97,7 @@ console.log(studentGrade(70));
 
 
 
-task 
+// task 
 let a=10, b=20, c=4
 if(a>b && a>c){
     console.log(" a is greater")
@@ -109,7 +109,7 @@ if(a>b && a>c){
 
 
 
-Task
+// Task
 let unit=100;
 let totalbill;
 let priceperunit;
@@ -127,7 +127,7 @@ console.log("units", unit)
 console.log("priceperunit", priceperunit)
 console.log("bill", totalbill)
 
-task
+// task
 let year = 2100
 if((year % 4 ===0 && year % 100 !==0) || year % 400 ===0){
     console.log("leap year", year)

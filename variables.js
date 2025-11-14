@@ -29,7 +29,7 @@ function hi(y, z){
 }
    console.log(hi(2,9))
 
-data type
+// // data type
 let x="areeba";
 let y= 40;
 let z= 60.98;
@@ -39,50 +39,36 @@ let b= true
 console.log(x,y,z,c,v,b)
 console.log(typeof x, typeof y, typeof z, typeof v, typeof c, typeof b )
 
-//object 
-let o={
-    "name": "areeba",
-    "job": "web devloper",
-} 
-console.log(o)
-o.salary=30000
-console.log(o)
 
 let a= "areeba";
 let m=80;
 console.log(a+m)
 console.log(typeof a, typeof m)
 
-// //TASK 1
+// // //TASK 1
 let x ="areeba";
 let age=24;
 is_student= true
 console.log(x, age, is_student)
 
-// //TASK 2
+// // //TASK 2
 var city= "abbottabad";
 let country= "pakistan";
 const planet="earth"
 console.log(city, country, planet)
 
-// // TASK 3
-let student={
-    "name": "areeba",
-    "age": 24,
-    "course": "computer science"   
-}
-console.log(student)
 
-// //Task 3
+
+// // //Task 3
 let u="usman";
 let a = 24
 console.log(u+a)
 
-// // //TASK 4
+// // // //TASK 4
 const name="areeba";
 name="khalid"//wrong
 
-// //Task 5
+// // //Task 5
 let Name= "areeba"; // global variable
  function Hellow(){
     console.log("hellow", Name)
@@ -91,7 +77,7 @@ let Name= "areeba"; // global variable
  console.log(Name)
 
 
-//Task 6
+// //Task 6
  username="areeba"
  function sayHellow(){
      let username="momna"
@@ -107,28 +93,8 @@ let num="10"
  let result = convertNum+5
  console.log(result)
 
-//task 8
-const student={
-    name: "areeba",
-    age: 24
-}
- student.name= "areeba khalid"
- console.log(student)
- console.log(typeof student)
 
-//task 9
-const person={name: "ali", age: 24,
-    address: {
-        city: "abottabad",
-        country: "pakistan"
-
-    }
-}
-console.log(person.address.city)
-console.log(typeof person)
-
-
-//task 10
+// //task 10
 let x= "areeba"
 let y=2
 console.log(x+y)
