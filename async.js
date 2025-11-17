@@ -5,6 +5,8 @@
 // }, 2000);
 // console.log("hi i am areeba khalid")
 
+// const { log } = require("async");
+
 // //promises
 // let prom1 = new Promise((resolve, reject) =>{
 //     let a= Math.random();
@@ -126,16 +128,142 @@
 
 
 //task promise.all()
-let p1= new Promise((resolve, reject)=>{
-setTimeout(() => {
-    resolve("data1")
-}, 1000);
-});
-let p2= new Promise((resolve, reject)=>{
-setTimeout(() => {
-    resolve("data2")
-}, 1000);
-});
-Promise.all([p1,p2]).then((result)=>{
-console.log(result)
-})
+// let p1= new Promise((resolve, reject)=>{
+// setTimeout(() => {
+//     resolve("data1")
+// }, 1000);
+// });
+// let p2= new Promise((resolve, reject)=>{
+// setTimeout(() => {
+//     resolve("data2")
+// }, 1000);
+// });
+// Promise.all([p1,p2]).then((result)=>{
+// console.log(result)
+// })
+
+//task
+// function userLogin(username, password){
+//   return  new Promise((resolve, reject)=>{
+// if(username=="admin" && password==="123"){
+//   resolve("login success")
+// } else{
+//   reject("login failed")
+// }
+//   });
+// }
+// userLogin("admin", "123")
+// .then((msg)=>{console.log(msg)})
+// .catch((err)=>{console.log(err)})
+
+
+//async Await
+// async function getData() {
+//     let x = await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//     let data = await x.json();
+//     console.log(x);
+//     return data;
+// }
+
+
+// async function main() {
+//     console.log("loading module");
+
+//     let data = await getData(); 
+
+//     console.log("data");
+//     console.log(data);          
+//     console.log("process data");
+// }
+// main();
+
+//task
+// async function getAllUser(){
+//   try {
+//        const response= await fetch('https://jsonplaceholder.typicode.com/todos/1');
+//  const data = await response.json()
+//  console.log(data)
+//   } catch (error) {
+//     console.log("E: ", err)
+//   }
+ 
+// }
+// getAllUser() 
+
+
+// //TASK 
+// function wait(ms){
+// return new Promise((resolve)=>{
+// setTimeout(() => {
+//   resolve("done")
+// }, ms);
+// });
+// }
+
+// async function main(){
+// console.log("waiting...")
+// let result= await wait(2000);
+// console.log(result)
+// }
+// main()
+
+//task fetch data from api
+// async function getPostTitle(){
+//   try {
+//     const response= await fetch('https://jsonplaceholder.typicode.com/todos/1')
+//     const data= await response.json()
+// console.log("title:", data.title)
+//   } catch (error) {
+//     console.log("error:", err)
+//   }
+// }
+// getPostTitle()
+
+//task json data 
+// async function getUser(){
+// return { id: 1, name: "areeba"}
+
+// }
+// async function get(){
+//   const result= await getUser();
+//   console.log(result)
+// }
+// get()
+
+// //with .then method
+// async function User(){
+//   return {id: 1, name: "areeba khalid"}
+// }
+// User().then((msg)=>{
+//   console.log(msg)
+// })
+
+// async function userData(){
+//   return new Promise((resolve)=>{
+//  resolve({id: 1, name: "areeba khalid awan"});
+//   });
+// };
+// userData().then((data)=>{
+//   console.log(data)
+// })
+
+// //task
+// async function getdata(){
+//   try {
+//         const response = await fetch("https://jsonplaceholder.typicode.com/404");
+
+
+//         if(!response.ok){
+//           throw new Error("failed to fetch");             
+//         }
+//  const data = await response.json();
+//  console.log(data);
+
+    
+//   } catch (error) {
+//     console.log("Error:",error.message)
+//   }
+// }
+// getdata()
+
+

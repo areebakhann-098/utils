@@ -73,7 +73,6 @@ if(numbers>=90 && numbers<=100){
         console.log("fail")
     }
 
-
 // // task Using ternary operator
 let marks = 85;
 let grade =

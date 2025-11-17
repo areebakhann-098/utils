@@ -1,4 +1,4 @@
-let a="areeba"
+let a="usman"
 console.log(a[0])
 console.log(a[1])
 console.log(a[2])
@@ -16,13 +16,13 @@ let b="areeba"
 console.log(b.toUpperCase(b))
 console.log(b.toLowerCase(b))
  console.log(b.length)
-  console.log(b.slice(1,3))
-    console.log(b.replace("ba" ,"sha"))
+  console.log(b.slice(1,6))
+    console.log(b.replace("ar" ,"us"))
         console.log(b.concat(a, "khalid"))
         console.log(b.trim())
         console.log(b.charAt())
         console.log(b.endsWith("b"))
-        console.log(b.indexOf("ba"))
+        console.log(b.indexOf("b"))
 
 
 
