@@ -15,6 +15,7 @@
 // let a= new Animal("bunny");
 // console.log(a)
 
+
 // // //this kyword in object
 
 // let person={
@@ -144,3 +145,12 @@
 // }
 // let a=returnfunc()
 // a()
+
+const user = {
+  name: "Areeba",
+  normalFunc: function () {
+    console.log("Normal Function ->", name);
+  }
+};
+
+user.normalFunc(); 

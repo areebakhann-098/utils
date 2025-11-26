@@ -95,60 +95,60 @@
 // console.log(sum)
  
 // //  // TASK 8: Sum of Even Numbers between 1–50 using for loop
-//  let add=0;
-//  for(i=0;i<=50;i++){
-//     if(i%2==0){
-//         add=add+i
-//     }  
-//  }
-//  console.log(add)
+ let add=0;
+ for(i=0;i<=50;i++){
+    if(i%2==0){
+        add=add+i
+    }  
+ }
+ console.log(add)
 
 
 // // // TASK 9: Reverse Numbers Use for loop Print numbers 10 to 1
 
-// for(i=10; i>=0;i--)
-//     {
-//     console.log(i)
-// }
+for(i=10; i>=0;i--)
+    {
+    console.log(i)
+}
 //             // TASK 10: Multiplication Table of 1–5
-// for(let i=1; i<=5; i++){
-//     console.log(` table of ${i}`);
-//     for(let j=1; j<=10; j++){
-//         console.log(`${i} * ${j}= ${i*j}`)
-//     }
-// }
+for(let i=1; i<=5; i++){
+    console.log(` table of ${i}`);
+    for(let j=1; j<=10; j++){
+        console.log(`${i} * ${j}= ${i*j}`)
+    }
+}
 
 
 
-// let areeba=[22, 33,44,55]
-// for (let index = 0; index < areeba.length; index++) {
-//     const element = areeba[index];
-//     console.log(element)
-//     console.log(areeba.length)
-// }
-// console.log(areeba[1])
+let areeba=[22, 33,44,55]
+for (let index = 0; index < areeba.length; index++) {
+    const element = areeba[index];
+    console.log(element)
+    console.log(areeba.length)
+}
 
-// let areeba={
-//      height: 6,
-//      weight: 83,
-//      habits: "very good but.....",
-//      nature: "excellent",
-//      dream: "BMW",
-//      fav_dish: "fish",
-//      sweet: "kheer"
-// }
-// for (const key in areeba) {
-//     const element = areeba[key];
-//     console.log(key, element)
-// }
+let areebakhalid={
+     height: 6,
+     weight: 83,
+     habits: "very good ",
+     nature: "excellent",
+     dream: "BMW",
+     fav_dish: "fish",
+     sweet: "kheer"
+}
 
-// let obj={ name: "areeba", role: "programmer", company: "robotics"}
-// let obj1={ name: "usman", role: "full stack devloper", company: "robotics-world" }
-// if(obj.name=="areeba"){
-// obj.sirname="usman niaz swati"
-// console.log(obj)
-// }if(obj1.name=="usman"){
-//    delete obj1.company
-//     console.log(obj1)
-// } else 
-//     console.log("thanks")
+for (const key in areebakhalid) {
+    const element = areebakhalid[key];
+    console.log(key, element)
+}
+
+let obj={ name: "areeba", role: "programmer", company: "robotics"}
+let obj1={ name: "aqsa", role: "full stack devloper", company: "robotics-world" }
+if(obj.name=="areeba"){
+obj.sirname="aqsa"
+console.log(obj)
+}if(obj1.name=="aqsa"){
+   delete obj1.company
+    console.log(obj1)
+} else 
+    console.log("thanks")

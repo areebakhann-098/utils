@@ -1,36 +1,43 @@
-// console.timeLog("i am the developer")
+// console.log("i am the developer")
 // console.log("i am the programmer")
 // setTimeout(()=>{
-//  console.log("i am in the settimeout")
-// }, 2000);
+//   console.log("i am in the set timeout")
+// },2000)
+
 // console.log("hi i am areeba khalid")
 
-// const { log } = require("async");
 
 // //promises
-// let prom1 = new Promise((resolve, reject) =>{
-//     let a= Math.random();
-//     if(a<0.5){
-//         console.log("no random number was not supporting")
-//     }else {
-//  setTimeout(()=>{
-//         console.log("hi i am a developer");
-//         resolve("areeba")
-//     },2000);
-//     }
+let prom1 = new Promise((resolve, reject) =>{
+    let a= Math.random();
+    if(a>2){
+        console.log("no random number was not supporting")
+    }else {
+ setTimeout(()=>{
+        console.log("hi i am a developer");
+        resolve("areeba")
+    },2000);
+    }
    
-// });
-// prom1.then((a)=>{
-//     console.log(a)
-// }).catch((err)=>{
-//     console.log(err)
-// })
+});
+prom1.then((a)=>{
+    console.log(a)
+}).catch((err)=>{
+    console.log(err)
+})
 //Task
 // let promise= new Promise((resolve, reject)=>{
 //     setTimeout(() => {
 //         console.log("hi how are you")
 //         resolve("promise resolve")
 //     }, 2000);
+// })
+
+// let promise= new Promise((resolve, reject)=>{
+//   setTimeout(() => {
+//     console.log("hi how are you")
+//     resolve("promise resolve")
+//   }, 2000);
 // })
 
 // promise.then((a)=>{
@@ -127,7 +134,7 @@
 
 
 
-//task promise.all()
+// //task promise.all()
 // let p1= new Promise((resolve, reject)=>{
 // setTimeout(() => {
 //     resolve("data1")
@@ -247,6 +254,32 @@
 //   console.log(data)
 // })
 
+// async function userData(){
+//   return new Promise((resolve)=>{
+//     resolve({id: 1, name:"areeba"});
+//   })
+// };
+// userData().then((data)=>{
+//   console.log(data)
+// })
+// async function getData(){
+//   try {
+//         const response= await fetch("https://jsonplaceholder.typicode.com/404");
+//         if(!response.ok){
+//           throw new Error("failed to fetch")
+
+//         }
+        
+//       const data= await response.json()
+//       console.log(data)
+
+//   } catch (error) {
+//     console.log("Error", error.message)
+    
+//   }
+// }
+// getData()
+
 // //task
 // async function getdata(){
 //   try {
@@ -267,3 +300,26 @@
 // getdata()
 
 
+
+//differnt method to write async function
+// simple async function
+async function sum(){
+}
+
+// //async arrow function
+const register = async(name, password)=>{
+}
+
+//function expression
+const a = async function(){
+
+}
+
+// JSON.stringify() is a built-in 
+// JavaScript method used to convert a JavaScript value (typically an object or array) into a JSON string.
+
+//the JSON.parse() method is used to convert a JSON string into a JavaScript object. 
+app.use(express.json())
+"{\"name\":\"Areeba\",\"age\":20}"
+let data = json.parse(req.body)
+req.body= {name: "areeba", age: 20}

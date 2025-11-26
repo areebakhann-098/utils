@@ -1,28 +1,28 @@
 // // /object 
-// let o={
-//     "name": "areeba",
-//     "job": "web devloper",
-// } 
-// console.log(o)
-// o.salary=30000
-// console.log(o)
+let o={
+    "name": "areeba",
+    "job": "web devloper",
+} 
+console.log(o)
+o.salary=30000
+console.log(o)
 
 // // // TASK 3
-// let student={
-//     "name": "areeba",
-//     "age": 24,
-//     "course": "computer science"   
-// }
-// console.log(student)
+let student={
+    "name": "areeba",
+    "age": 24,
+    "course": "computer science"   
+}
+console.log(student)
 
 // //task 
-// const students={
-//     name: "areeba",
-//     age: 24
-// }
-//  students.name= "areeba khalid"
-//  console.log(students)
-//  console.log(typeof students)
+const students={
+    name: "areeba",
+    age: 24
+}
+ students.name= "areeba khalid"
+ console.log(students)
+ console.log(typeof students)
 
 //task 9
 const person={name: "ali", age: 24,

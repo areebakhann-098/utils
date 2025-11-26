@@ -7,7 +7,7 @@ console.log(a[4])
 console.log(a.length)
 //compare with template literals
 let real_name="areeba khalid";
-let team_mate="usman niaz swati"
+let team_mate="imran ali"
 console.log("her name is " + real_name + " and her team mate name is " + team_mate)
 console.log(`her name is ${real_name} and her team mate name is ${team_mate}`)
 
@@ -26,6 +26,16 @@ console.log(b.toLowerCase(b))
 
 
 
+
+
+
+let supervisor="hamza";
+console.log(supervisor[1])
+console.log(supervisor.length)
+console.log(supervisor.toLowerCase())
+console.log(supervisor.toUpperCase())
+console.log(supervisor.charAt())
+console.log(supervisor.endsWith("i"))
 
 
 

@@ -1,12 +1,12 @@
 
 // //let var and const
-
 // var a=9;
 // function abc(){
 //     var a=22;
 //       return a=a+2
 // }
 // console.log(abc())//allowed
+
 
 // let b=2
 // b=b+2
@@ -68,17 +68,17 @@
 // console.log(u+a)
 
 // // // // //TASK 4
-// var name="areeba";
-// name="khalid"//wrong
-// console.log(name)
+let name="areeba";
+name="khalid"
+console.log(name)
 
 // // // //Task 5
-// let Name= "areeba"; // global variable
-//  function Hellow(){
-//     console.log("hellow", Name)
-//  }
-//  Hellow()
-//  console.log(Name)
+let Name= "areeba"; // global variable
+ function Hellow(){
+    console.log("hellow", Name)
+ }
+ Hellow()
+ console.log(Name)
 
 
 // // //Task 6
@@ -105,15 +105,57 @@
 // console.log(x-y)
 
 
-let userName="areeba";
-let a=""
-// let convertname= Boolean(userName)
-let converta= Boolean(a)
+// let userName="areeba";
+// let a=""
+// // let convertname= Boolean(userName)
+// let converta= Boolean(a)
 
-if(converta===true){
-    console.log("true")
-}else {
-    console.log("false")
-}
-console.log(typeof converta)
+// if(converta===true){
+//     console.log("true")
+// }else {
+//     console.log("false")
+// }
+// console.log(typeof converta)
+
+
+
  
+//convert string to number 
+// let str="123"
+// let num= Number(str)
+// console.log(num)
+
+// //using parseint
+// let str1="123"
+// let num1= parseInt(str1)
+// console.log(num1)
+
+// //when include decimal
+// let str3 = "123.45";
+// console.log(parseInt(str3)); 
+
+// //using parse float
+// let str4= "123.098"
+// console.log(parseFloat(str4))
+
+// //number to string
+// let num3= 123
+// let str6= String(num3)
+// console.log(str6)
+// console.log(typeof str6)
+
+// //another way
+// let num4= 123
+// let str7=num.toString()
+// console.log(str7)
+// console.log(typeof str7)
+
+// //using tempate literals
+// let num7= 123
+// let strr= `${num7}`
+// console.log(strr)
+// console.log(typeof strr)
+
+
+
+
